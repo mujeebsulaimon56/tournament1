@@ -1,0 +1,71 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #001f3f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Banner container */
+  .banner {
+    position: relative;
+    width: 80%;
+    height: 60%;
+    background: linear-gradient(135deg, #001f3f, #00a896);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Logo */
+  .logo {
+    width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Content */
+  .content {
+    z-index: 2;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    font-weight: bold;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .details {
+    font-size: 1.5rem;
+    margin: 5px 0;
+  }
+  
+  .register-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    background: #005f73;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background: #00a896;
+  }
+  
